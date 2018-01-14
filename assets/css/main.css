@@ -1312,7 +1312,7 @@
 	body {
 		background-color: #442242; 
 		/*background-color: #AAAAAA; */
-		background-image: url("../../../images/overlay.png")/*, url("../../images/RodBG.png")*/;
+		background-image: url("../../images/Cover_bg0.jpeg");/*, url("../../images/RodBG.png"),url("images/overlay.png")*/;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1808,7 +1808,7 @@
 			top: -4.5em;
 			margin-left: -45px;
 			margin-top: -33px;
-			background: url("images/arrow.svg") no-repeat;
+			background: url("../../images/arrow.svg") no-repeat;
 		}
 
 		.box :last-child {
@@ -1948,7 +1948,54 @@
 			display: none;
 			color: white;
 		}
-
+		.icontw {
+		  margin: 0 auto;
+		  tex-align: center;
+		  position: relative;
+		  display: inline-block;
+		 }
+		.icontw:before {
+		  content: "\f081"; 
+		  font-family: FontAwesome;
+		  color: #dedede;
+		  font-size: 36px;
+		}
+		.iconFB {
+		  margin: 0 auto;
+		  tex-align: center;
+		  position: relative;
+		  display: inline-block;
+		 }
+		.iconFB:before {
+		  content: "\f230"; 
+		  font-family: FontAwesome;
+		  color: #dedede;
+		  font-size: 36px;
+		}
+		.iconYT {
+		  margin: 0 auto;
+		  tex-align: center;
+		  position: relative;
+		  display: inline-block;
+		 }
+		.iconYT:before {
+		  content: "\f16a"; 
+		  font-family: FontAwesome;
+		  color: #dedede;
+		  font-size: 42px;
+		}
+		.iconBe {
+		  margin: 0 auto;
+		  tex-align: center;
+		  position: relative;
+		  display: inline-block;
+		 }
+		.iconBe:before {
+		  content: "\f1b5"; 
+		  font-family: FontAwesome;
+		  color: #dedede;
+		  font-size: 36px;
+		}
 		.Btnrr {
 		  margin: 0 auto;
 		  tex-align: center;
@@ -2070,7 +2117,7 @@
 				bottom: -4.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
-				background: url("images/arrow.svg") no-repeat;
+				background: url("../../images/arrow.svg") no-repeat;
 			}
 
 /* YouTubeS potify Buttons  */
@@ -2135,13 +2182,48 @@
 	.play-button-divSP:hover img {
 	  opacity: .6;
 	}
+	.title-box{
+	    width: 620px;
+    	position: absolute;
+    	left: 28%;
+    	top: 30%;
+    	width: 44%;
+    	height: 30%;
+	    padding: 40px;
+	    margin: 0; 
+	    /*background-color: rgba(255, 255, 255, 0.2);*/
+	    border-width: 4px;
+	    border-style: solid;
+	    border-color: white;
+	  	font-size: 60px;
+	  	color: white;
+	  	text-align: center;
+	  	text-justify: auto;
+	  	letter-spacing: 3px;
+	  	line-height: 1.25;
+	}
+	.text-box {
+	  display: inline-block;
+	  position: relative;
+	  width: 66%;  
+	  text-align: justify;
+      text-justify: auto;
+      color: white;
+	}
+	.text-box-black {
+	  display: inline-block;
+	  position: relative;
+	  width: 66%;  
+	  text-align: justify;
+      text-justify: auto;
+      color: black;
+	}
 
 /* Songs Sections */			
 	#IntroText {
-		/*position: relative;*/
 		color: #3fef3f;
 		text-align: center;
-		background: #2681d6;
+		background: #2C001E;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2160,9 +2242,340 @@
 		margin: 0;
 		background-size: 125% auto;
 	}
-	#SongBTG {
+	#SongLEDF {
 		text-align: center;
-		background: #000000;
+		background: #2C1329;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongTadow {
+		text-align: center;
+		background: #606060;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongMedGold {
+		text-align: center;
+		background: #9075D9;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongFriZon{
+		text-align: center;
+		background: #E4D3E3;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongMeroe{
+		text-align: center;
+		background: #030303;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongTUTLAG
+	{
+		text-align: center;
+		background: #77653A;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongAndroGor 
+	{
+		text-align: center;
+		background: #EC5B60;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongHigh
+	{
+		text-align: center;
+		background: #F48291;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#Song3WW
+	{
+		text-align: center;
+		background: #27367B;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongCityStars
+	{
+		text-align: center;
+		background: #4527A3;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongBitsTh
+	{
+		text-align: center;
+		background: #45525B;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongBBNGIdk
+	{
+		text-align: center;
+		background: #A7C4DB;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongPQEnd
+	{
+		text-align: center;
+		background: #D7DFE1;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongDCMTkm
+	{
+		text-align: center;
+		background: #FD907F;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongGStbl
+	{
+		text-align: center;
+		background: #F0496A;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongThWaCSaT
+	{
+		text-align: center;
+		background: #791009;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongTruthKW
+	{
+		text-align: center;
+		background: #D1141E;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongNoLoCSaT
+	{
+		text-align: center;
+		background: #220000;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;		
+	}
+	#SongOnTSBAO
+	{
+		text-align: center;
+		background: #CFB6A2;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;			
+	}
+	#SongFKJLT
+	{
+		text-align: center;
+		background: #DAC886;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongFKJVOw
+	{
+		text-align: center;
+		background: #FCF3A8;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#Song4TetDa
+	{
+		text-align: center;
+		background: #CCCCCC;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#SongBonBA
+	{
+		text-align: center;
+		background: #652617;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongHeNCBM
+	{
+		text-align: center;
+		background: #DBDBDB;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongChBFiF
+	{
+		text-align: center;
+		background: #94CCE1;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongLAIEs
+	{
+		text-align: center;
+		background: #155FE2;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongJBalSTN
+	{
+		text-align: center;
+		background: #ffffff;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongJoSoPap
+	{
+		text-align: center;
+		background: #015A68;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongIMSPaLa
+	{
+		text-align: center;
+		background: #D19F30;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongIMSCuBo
+	{
+		text-align: center;
+		background: #E70F76;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongBoEsSi
+	{
+		text-align: center;
+		background: #F89494;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongCaTacQn
+	{
+		text-align: center;
+		background: #B7B19E;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;			
+	}
+	#SongNaLafTSS
+	{
+		text-align: center;
+		background: #837D6D;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;			
+	}
+	#SongNaLafSoLP
+	{
+		text-align: center;
+		background: #AA9E84;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongJPVChaCha
+	{
+		text-align: center;
+		background: #D6B0CB;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongMoPeSab
+	{
+		text-align: center;
+		background: #DCC5AB;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongNatLafRec
+	{
+		text-align: center;
+		background: #F57F17;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongDavAgAbu
+	{
+		text-align: center;
+		background: #C7AA35;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;			
+	}
+	#SongMonocTu
+	{
+		text-align: center;
+		background: #140A0B;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongJorDexLAEC
+	{
+		text-align: center;
+		background: #4F4E6E;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongLucSupLAEC
+	{
+		text-align: center;
+		background: #A47F61;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;	
+	}
+	#SongMetPGVWMur
+	{
+		text-align: center;
+		background: #989898;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;		
+	}
+	#SongBjUt {
+		text-align: center;
+		background: #EED3C8;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
