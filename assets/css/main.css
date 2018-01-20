@@ -2820,7 +2820,7 @@
 
 			body {
 				background-color: #203936;
-				background-image: url("../../images/Cover_bg0.jpeg"), url("images/overlay.png");
+				background-image: url("https://rodpasquel.github.io/Reco017/Images/Cover_bg0.jpeg"), url("images/overlay.png");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
