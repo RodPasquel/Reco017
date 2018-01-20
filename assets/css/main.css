@@ -1312,8 +1312,7 @@
 	body {
 		background-color: #442242; 
 		/*background-color: #AAAAAA; */
-		/*background-image: url("../../images/Cover_bg0.jpeg");/*, url("../../images/RodBG.png"),url("images/overlay.png")*/
-		background-image: url("https://rodpasquel.github.io/Reco017/assets/images/Cover_bg0.jpeg");
+		background-image: url("../../images/Cover_bg0.jpeg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -2183,26 +2182,7 @@
 	.play-button-divSP:hover img {
 	  opacity: .6;
 	}
-	.title-box{
-	    width: 620px;
-    	position: absolute;
-    	left: 28%;
-    	top: 30%;
-    	width: 44%;
-    	height: 30%;
-	    padding: 40px;
-	    margin: 0; 
-	    /*background-color: rgba(255, 255, 255, 0.2);*/
-	    border-width: 4px;
-	    border-style: solid;
-	    border-color: white;
-	  	font-size: 60px;
-	  	color: white;
-	  	text-align: center;
-	  	text-justify: auto;
-	  	letter-spacing: 3px;
-	  	line-height: 1.25;
-	}
+	
 	.text-box {
 	  display: inline-block;
 	  position: relative;
@@ -2772,6 +2752,28 @@
 			body, input, textarea, select {
 				font-size: 16pt;
 			}
+		/*Title Box*/
+		.title-box{
+			    width: 60%;
+		    	position: absolute;
+		    	left: 28%;
+		    	top: 30%;
+		    	width: 44%;
+		    	height: 30%;
+			    padding: 40px;
+			    margin: 0; 
+			    /*background-color: rgba(255, 255, 255, 0.2);*/
+			    border-width: 4px;
+			    border-style: solid;
+			    border-color: white;
+			  	
+			  	font-size: 50px;
+			  	color: white;
+			  	text-align: center;
+			  	text-justify: auto;
+			  	letter-spacing: 3px;
+			  	line-height: 1.25;
+			}
 
 	}
 
@@ -2785,6 +2787,28 @@
 				padding: 4em 0 4em 0;
 				background-size: auto, 175% auto;
 			}
+		/*Title Box*/
+		.title-box{
+			    width: 620px;
+		    	position: absolute;
+		    	left: 28%;
+		    	top: 30%;
+		    	width: 44%;
+		    	height: 30%;
+			    padding: 40px;
+			    margin: 0; 
+			    /*background-color: rgba(255, 255, 255, 0.2);*/
+			    border-width: 4px;
+			    border-style: solid;
+			    border-color: white;
+			  	
+			  	font-size: 30px;
+			  	color: white;
+			  	text-align: center;
+			  	text-justify: auto;
+			  	letter-spacing: 3px;
+			  	line-height: 1.25;
+			}
 
 	}
 
@@ -2796,7 +2820,7 @@
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: url("../../images/Cover_bg0.jpeg"), url("images/overlay.png");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
@@ -2861,6 +2885,28 @@
 
 				#banner br {
 					display: none;
+				}
+		/*Title Box*/
+			.title-box{
+				    width: 30%;
+			    	position: absolute;
+			    	left: 28%;
+			    	top: 30%;
+			    	width: 44%;
+			    	height: 30%;
+				    padding: 40px;
+				    margin: 0; 
+				    /*background-color: rgba(255, 255, 255, 0.2);*/
+				    border-width: 4px;
+				    border-style: solid;
+				    border-color: white;
+				  	/*
+				  	font-size: 60px;
+				  	color: white;
+				  	text-align: center;
+				  	text-justify: auto;
+				  	letter-spacing: 3px;
+				  	line-height: 1.25;*/
 				}
 
 	}
@@ -2994,6 +3040,28 @@
 				.box.style3 {
 					padding: 2em 1.25em 2em 1.25em;
 				}
+				.title-box{
+					margin: 0 0 1em 0;
+				   	width: 0px;
+			    	position: absolute;
+			    	left:25%;
+			    	top: 10%;
+			    	width: 50%;
+			    	height: 25%;
+				    padding: 0px;
+				    /*margin: 0; 
+				    background-color: rgba(255, 255, 255, 0.2);
+				    border-width: 4px;
+				    border-style: solid;
+				    border-color: white;
+				  	*/
+				  	font-size: 15px;
+				  	color: white;
+				  	text-align: center;
+				  	text-justify: auto;
+				  	letter-spacing: 3px;
+				  	line-height: 1.25;
+					}			
 
 		/* Header */
 
